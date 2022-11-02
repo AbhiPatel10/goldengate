@@ -1,0 +1,27 @@
+.hero-section {
+  background-image: url("../public/img/bg-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 90vh;
+}
+.hero-line-dash {
+  height: 1px;
+  padding: 0;
+  border-bottom: 3px solid rgb(78, 78, 255);
+  width: 70px;
+  margin-right: 10px;
+}
+.hero-committed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero-section{
+    /* margin-top: 60px; */
+  }
+
+}
