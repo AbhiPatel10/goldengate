@@ -17,7 +17,10 @@ export default function Home() {
         <SectionHeader title="Fee Structure" />
         <Feestructure />
       </div>
-      <Faq />
+      <div>
+        <SectionHeader title="FAQs" />
+        <Faq />
+      </div>
     </>
   )
 }

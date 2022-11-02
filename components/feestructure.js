@@ -4,7 +4,7 @@ const Feestructure = () => {
     return (
         <>
             <section class=" text-gray-600 body-font ">
-                <div class="container  py-8 mx-auto">
+                <div class="container mx-auto">
                     <div class="flex flex-wrap ">
                         <div class="p-12 md:w-1/2 flex flex-col items-start">
                             <h2 class="sm:text-3xl text-2xl title-font font-bold text-gray-900 mt-4 mb-4">2% Management fee </h2>

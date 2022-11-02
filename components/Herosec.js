@@ -3,8 +3,8 @@ import React from 'react'
 const Herosec = () => {
     return (
         <>
-            <section >
-                <div className=" hero-section flex flex-col items-center justify-center">
+            <section className='main-hero'>
+                <div className="hero-section flex flex-col items-center justify-center">
                     <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
                         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                             <h1 className="title-font sm:text-6xl  md:text-4xl lg:text-6xl text-4xl font-bold  mb-4 text-white md:whitespace-nowrap whitespace-normal">Invest in the largest <br />financial markets</h1>

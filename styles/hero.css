@@ -1,8 +1,12 @@
 .hero-section {
+}
+.main-hero{
   background: url('../public/Img/bg-banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 91vh;
+  background-size: auto;
+  height: 89vh;
+  padding-top: 5% ;
 }
 .hero-line-dash {
   height: 1px;
