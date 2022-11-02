@@ -13,7 +13,6 @@ const Herosec = () => {
                                 <li>More than 12,000 financial instruments</li>
                                 <li>Spreads from 0 points</li>
                                 <li>Trading with up to 1:2000</li>
-                           
                             </ul>
                             <a href="#appoinment"><button className="mt-5 text-white bg-indigo-500 border-0 lg:py-2 lg:px-6 px-4 py-1 focus:outline-none hover:bg-indigo-600 rounded text-lg">Start Earning</button></a>
                         </div>

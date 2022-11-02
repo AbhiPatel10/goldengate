@@ -1,8 +1,8 @@
 .hero-section {
-  background-image: url("../public/img/bg-banner.jpg");
+  background: url('../public/Img/bg-banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  height: 90vh;
+  height: 91vh;
 }
 .hero-line-dash {
   height: 1px;
