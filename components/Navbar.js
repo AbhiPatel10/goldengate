@@ -9,13 +9,13 @@ const Navbar = () => {
     return (
         <>
             <nav className="Navbar">
-                <span className="nav-logo flex justify-center items-center"><Image width={45} src={Logo} className="mr-2" ></Image> <span className=" md:text-2xl text-lg ">Golden Gate Capital</span></span>
-                <div className={ `nav-items ${isOpen && "open"}` }>
-                    <Link href={ '/' }>Home</Link>
-                    <Link href={ '/about' }>About</Link>
-                    <Link href={ '/' }>Service</Link>
-                    <Link href={ '/' }>Contact</Link>
-                </div>
+                <span className="nav-logo flex justify-center items-center"><Image width={ 45 } src={ Logo } className="mr-2" ></Image> <span className=" md:text-2xl text-lg text-blue-800">Golden Gate Capital</span></span>
+                <ul className={ `nav-items ${isOpen && "open"}` }>
+                    <Link href={ '/' }><li>Home</li></Link>
+                    <Link href={ '/about' }><li>About</li></Link>
+                    <Link href={ '/' }><li>Service</li></Link>
+                    <Link href={ '/' }><li>Contact</li></Link>
+                </ul>
                 <div
                     className={ `nav-toggle ${isOpen && "open"}` }
                     onClick={ () => setIsOpen(!isOpen) }

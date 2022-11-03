@@ -1,13 +1,8 @@
 .hero-section {
 }
-.main-hero{
-  background: url('../public/Img/bg-banner.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto;
-  height: 89vh;
-  padding-top: 5% ;
-}
+/* .main-hero{
+  height: 91vh;
+} */
 .hero-line-dash {
   height: 1px;
   padding: 0;
@@ -21,11 +16,29 @@
   align-items: center;
   margin-bottom: 20px;
 }
+.main_title{
+  color: #4F46E5;
+  line-height: 80px;
+  font-size: 60px;
+  font-weight: 700;
+}
 
+@media screen and (max-width: 1023px) {
+  .main_title{
+    line-height: 60px;
+    font-size: 50px;
+    font-weight: 700;
+  }
 
+}
 @media screen and (max-width: 768px) {
   .hero-section{
     /* margin-top: 60px; */
+  }
+  .main_title{
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 700;
   }
 
 }
