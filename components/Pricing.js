@@ -41,7 +41,7 @@ const Pricing = () => {
                             </div>
                         </div>
                         <div className="py-10 md:w-1/2 w-full">
-                            <div className="h-full p-8 rounded bg-blue-900">
+                            <div className="h-full p-8 rounded bg-indigo-900">
                                 <h1 className='title-font text-2xl flex justify-center text-white pb-3'>ENTERPRISE</h1>
                                 <hr />
                                 <div class="flex flex-wrap mt-5">
@@ -78,7 +78,7 @@ const Pricing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <button class="flex mx-auto mt-5 text-slate-900 bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Us</button>
+                                <button class="flex mx-auto mt-5 text-slate-900 bg-green-500 border-0 py-2 px-8 focus:outline-none bg-white rounded text-lg">Contact Us</button>
                             </div>
                         </div>
                     </div>

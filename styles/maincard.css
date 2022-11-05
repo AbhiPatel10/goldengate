@@ -1,0 +1,15 @@
+.main-card-container{
+    position: relative;
+    top: 90px;
+    background-color: rgba(50, 50, 50, 0.8);
+    backdrop-filter: blur(10px);
+
+}
+.main-card-container p {
+    color: #ffffff
+}
+.main-card-container button{
+    background-color: rgb(243, 243, 57);
+    color: #4F46E5;
+    font-weight: 600;
+}
