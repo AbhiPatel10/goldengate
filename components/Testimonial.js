@@ -6,7 +6,7 @@ const Testimonial = () => {
         <>
             <div class="m-auto px-4 container grid lg:grid-cols-4 md:grid-cols-3 grid-rows-2 lg:gap-4 md:gap-2 gap-2">
                 <div class="lg:col-span-1 md:col-span-1 row-span-2">
-                    <div class="h-full border-gray-200 border py-4 lg:px-4 md:px-3 rounded-lg">
+                    <div class="h-full border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <img
@@ -32,7 +32,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-2 md:col-span-2 row-span-1">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 rounded-lg">
+                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3  rounded-lg">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <img
@@ -58,7 +58,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-1 col-span-1">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 rounded-lg">
+                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3  rounded-lg">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <img
@@ -81,7 +81,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <div class="">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 rounded-lg">
+                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3  rounded-lg">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <img
@@ -105,7 +105,7 @@ const Testimonial = () => {
                     </div>
                 </div>
                 <div class="lg:col-span-2 md:col-span-3">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 rounded-lg">
+                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3  rounded-lg">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <img

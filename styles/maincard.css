@@ -1,15 +1,16 @@
 .main-card-container{
     position: relative;
     top: 90px;
-    background-color: rgba(50, 50, 50, 0.8);
+    /* background-color: rgba(50, 50, 50, 0.8); */
+    background-color: rgb(250, 194, 19, 0.8);
     backdrop-filter: blur(10px);
 
 }
 .main-card-container p {
-    color: #ffffff
+    color: #393e39
 }
 .main-card-container button{
-    background-color: rgb(243, 243, 57);
-    color: #4F46E5;
+    background-color: #4F46E5;
+    color: rgb(250, 194, 19);
     font-weight: 600;
 }

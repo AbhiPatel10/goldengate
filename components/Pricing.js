@@ -45,7 +45,7 @@ const Pricing = () => {
                                 <h1 className='title-font text-2xl flex justify-center text-white pb-3'>ENTERPRISE</h1>
                                 <hr />
                                 <div class="flex flex-wrap mt-5">
-                                    <div class="w-1/2">
+                                    <div class="w-1/2 p-1">
                                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                             <div class="flex-grow">
                                                 <h2 class="text-white title-font font-medium">
@@ -53,7 +53,7 @@ const Pricing = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class=" w-1/2">
+                                    <div class=" w-1/2 p-1">
                                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                             <div class="flex-grow">
                                                 <h2 class="text-white title-font font-medium">Volume discounts</h2>
@@ -62,7 +62,7 @@ const Pricing = () => {
                                     </div>
                                 </div>
                                 <div class="flex flex-wrap ">
-                                    <div class="w-1/2">
+                                    <div class="w-1/2 p-1">
                                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                             <div class="flex-grow">
                                                 <h2 class="text-white title-font font-medium">
@@ -70,7 +70,7 @@ const Pricing = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class=" w-1/2">
+                                    <div class=" w-1/2 p-1">
                                         <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
                                             <div class="flex-grow">
                                                 <h2 class="text-white title-font font-medium">	Dedicated support</h2>

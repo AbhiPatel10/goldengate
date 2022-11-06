@@ -16,6 +16,7 @@ const Home = () => {
       <Navbar />
       <Herosec />
       <Pricing />
+      <SectionHeader title="People Who Love Us" />
       <Testimonial />
       <SectionHeader title="The Company advantages" />
       <Advantages />
