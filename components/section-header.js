@@ -5,7 +5,7 @@ const SectionHeader = (props) => {
     <>
       {
         props.title ?
-          <div className='section-header xs:mt-5 mt-12'>
+          <div className='section-header xs:mt-5'>
             <div>
               <p className='md:text-4xl text-2xl mb-2 flex justify-center'>{ props.title }</p>
               <div className='section-header-lines'>

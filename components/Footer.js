@@ -7,7 +7,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
 const Footer = () => {
     return (
         <>
-            <footer class="text-gray-600 Footer-Main body-font">
+            <footer class="text-gray-600 Footer-Main body-font" id='about'>
                 <div class="container px-5 pb-16 pt-44 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
