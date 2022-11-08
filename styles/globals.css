@@ -5,6 +5,15 @@
 .container{
     width: 90%;
 }
+.CompanyMessage{
+    color: #4F46E5;
+}
+.Message-From-Company{
+    /* background-image: url('../public/Img/Wave-wallpaper.jpg'); */
+    /* background-color: rgb(189, 225, 244); */
+    background-color: rgb(250, 194, 19, 0.8);
+    backdrop-filter: blur(20px);
+}
 
 @media only screen and (max-width: 600px) {
     .container{

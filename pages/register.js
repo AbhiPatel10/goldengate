@@ -7,9 +7,9 @@ import Maincard from './../components/MainCard';
 const Register = () => {
   return (
     <>
-        <Navbar />
-        <SignUpform />
-        <Footer />
+      <Navbar />
+      <SignUpform />
+      <Footer />
     </>
   );
 };

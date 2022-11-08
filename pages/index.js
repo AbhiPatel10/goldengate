@@ -9,6 +9,7 @@ import Pricing from '../components/Pricing'
 import SectionHeader from '../components/section-header'
 import Testimonial from '../components/Testimonial'
 import Footer from './../components/Footer';
+import Companymessage from './../components/CompanyMessage';
 
 const Home = () => {
   return (
@@ -23,7 +24,8 @@ const Home = () => {
       <div>
         <SectionHeader title="Fee Structure" />
         <Feestructure />
-      </div>
+        </div>
+        <Companymessage />
       <div>
         <SectionHeader title="FAQs" />
         <Faq />
