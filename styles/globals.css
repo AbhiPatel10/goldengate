@@ -14,6 +14,9 @@
     background-color: rgb(250, 194, 19, 0.8);
     backdrop-filter: blur(20px);
 }
+.slicecard-family{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 
 @media only screen and (max-width: 600px) {
     .container{

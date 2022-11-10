@@ -10,6 +10,7 @@ import SectionHeader from '../components/section-header'
 import Testimonial from '../components/Testimonial'
 import Footer from './../components/Footer';
 import Companymessage from './../components/CompanyMessage';
+import Slicecard from '../components/Slicecard'
 
 const Home = () => {
   return (
@@ -24,8 +25,9 @@ const Home = () => {
       <div>
         <SectionHeader title="Fee Structure" />
         <Feestructure />
-        </div>
-        <Companymessage />
+      </div>
+      <Slicecard />
+      <Companymessage />
       <div>
         <SectionHeader title="FAQs" />
         <Faq />
