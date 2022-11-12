@@ -14,10 +14,25 @@
     background-color: rgb(250, 194, 19, 0.8);
     backdrop-filter: blur(20px);
 }
+.SlideCard-right{
+    font-size: 40px;
+    font-weight: 700;
+    color: #4F46E5;
+    line-height: 45px;
+}
+/* Slice Card */
+
+
 .slicecard-family{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white
 }
 
+.slicecard-BG{
+    background-color: #4F46E5
+}
+
+/* Slice Card */
 @media only screen and (max-width: 600px) {
     .container{
         width: 100%;
