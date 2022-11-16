@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="Navbar md:px-5">
+      <nav className="Navbar md:px-24 sm:10">
         <Link href={"/"}>
           <span className="nav-logo flex justify-center items-center">
             <Image width={45} src={Logo} className="mr-2"></Image>{" "}
@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
         <ul className={`nav-items ${isOpen && "open"}`}>
           <Link href={"#about"}>
-            <li>About</li>
+            <li>About Us</li>
           </Link>
           <Link href={"/directors"}>
             <li>Directors</li>

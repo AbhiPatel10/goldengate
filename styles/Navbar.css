@@ -20,8 +20,10 @@
   color: #190087;
   font-size: 16px;
   text-decoration: none;
-  margin: 15px;
+  margin: 5px;
   position: relative;
+  padding: 5px 12px;
+  border-radius: 3px;
 }
 .nav-items > li {
   color: #9792ab;
@@ -31,9 +33,13 @@
 
 .Navbar > .nav-items > a:hover {
   opacity: 1;
+  /* font-size: 50px; */
+}
+.Navbar > .nav-items > a:hover {
+  background-color: rgb(237, 237, 237);
 }
 
-.Navbar > .nav-items > a::before {
+/* .Navbar > .nav-items > a::before {
   content: "";
   position: absolute;
   left: 0;
@@ -42,8 +48,9 @@
   height: 2px;
   background: #084c9a;
   transition: all 0.45s;
-}
+} */
 
+/* .Navbar > .nav-items > a: */
 .Navbar > .nav-items > a:hover::before {
   width: 100%;
 }
@@ -71,7 +78,7 @@
     transition: all 0.45s;
     padding-top: 20px;
   }
-  
+
   .Navbar > .nav-items > a::before {
     background: transparent;
   }

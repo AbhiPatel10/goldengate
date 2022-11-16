@@ -18,20 +18,14 @@ const Home = () => {
       <Navbar />
       <Herosec />
       <Pricing />
-      <SectionHeader title="People Who Love Us" />
-      <Testimonial />
+      <Companymessage />
+      <Slicecard />
       <SectionHeader title="The Company advantages" />
       <Advantages />
-      <div>
-        <SectionHeader title="Fee Structure" />
-        <Feestructure />
-      </div>
-      <Slicecard />
-      <Companymessage />
-      <div>
-        <SectionHeader title="FAQs" />
-        <Faq />
-      </div>
+      <Feestructure />
+      <Faq />
+      <SectionHeader title="Send us your love" />
+      <Testimonial />
       <Maincard />
       <Footer />
     </>

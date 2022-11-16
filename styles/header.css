@@ -21,5 +21,9 @@
   align-items: center;
 } */
 .Section-header-title{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif */
+  font-family:  'Signika Negative', sans-serif;;
+  src: url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+  color: #203152;
+  font-weight: 800;
 }

@@ -2,39 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-    width: 90%;
+.container {
+  width: 90%;
 }
-.CompanyMessage{
-    color: #4F46E5;
+.CompanyMessage {
+  color: #4f46e5;
 }
-.Message-From-Company{
-    /* background-image: url('../public/Img/Wave-wallpaper.jpg'); */
-    /* background-color: rgb(189, 225, 244); */
-    background-color: rgb(250, 194, 19, 0.8);
-    backdrop-filter: blur(20px);
+.Message-From-Company {
+  /* background-image: url('../public/Img/Wave-wallpaper.jpg'); */
+  /* background-color: rgb(189, 225, 244); */
+  background-color: rgb(250, 194, 19, 0.8);
+  backdrop-filter: blur(20px);
 }
-.SlideCard-right{
-    font-size: 40px;
-    font-weight: 700;
-    color: #4F46E5;
-    line-height: 45px;
+.SlideCard-right {
+  font-size: 40px;
+  font-weight: 700;
+  color: #4f46e5;
+  line-height: 45px;
 }
 /* Slice Card */
 
-
-.slicecard-family{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white
+.slicecard-family {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
 }
 
-.slicecard-BG{
-    background-color: #4F46E5
+.slicecard-BG {
+  background-color: #4f46e5;
 }
 
 /* Slice Card */
+
+/* FAQ */
+
+.Faq-card {
+  background-color: #15cf74;
+  box-shadow: 0px 0px 20px 2px rgb(162 163 163);
+}
+.Faq-card-header {
+    font-family:  'Signika Negative', sans-serif;;
+    src: url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+    color: #203152;
+}
+.Faq-card-ans{
+  font-weight: 400;
+  text-align: justify;
+  color: rgb(234, 234, 234);
+  font-size: 20px;
+}
+/* FAQ */
 @media only screen and (max-width: 600px) {
-    .container{
-        width: 100%;
-    }
+  .container {
+    width: 100%;
+  }
 }
