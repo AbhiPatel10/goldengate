@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiFillLinkedin } from 'react-icons/ai';
 import Avtar from "../public/Img/avtar.jpg"
 import Image from "next/image";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Testimonial = () => {
+    useEffect(() => {
+        AOS.init({
+          duration : 1300
+        });
+        AOS.refresh();
+      }, []);
     return (
         <>
             <div className="m-auto px-4 container grid lg:grid-cols-4 md:grid-cols-3 grid-rows-2 lg:gap-4 md:gap-2 gap-2">
@@ -16,7 +24,7 @@ const Testimonial = () => {
                                     className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow" data-aos='fade-up'>
                                     <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
@@ -25,7 +33,7 @@ const Testimonial = () => {
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
                         </div>
-                        <p className="mt-4 text-base text-justify">
+                        <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,
                             I can certainly say it’s @sliceit_ that has hit it out of the
                             park. Great job. When you build a great product, your customers
@@ -45,7 +53,7 @@ const Testimonial = () => {
                                     className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow" data-aos='fade-up'>
                                     <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
@@ -54,7 +62,7 @@ const Testimonial = () => {
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
                         </div>
-                        <p className="mt-4 text-base text-justify">
+                        <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                         As somebody who has pretty much tried all new age banks/fintechs,
                         I can certainly say it’s @sliceit_ that has hit it out of the
                         park. Great job. When you build a great product, your customers
@@ -71,7 +79,7 @@ const Testimonial = () => {
                                     className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow" data-aos='fade-up'>
                                     <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
@@ -80,7 +88,7 @@ const Testimonial = () => {
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
                         </div>
-                        <p className="mt-4 text-base text-justify">
+                        <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs
                         </p>
                     </div>
@@ -94,7 +102,7 @@ const Testimonial = () => {
                                     className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow" data-aos='fade-up'>
                                     <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
@@ -103,7 +111,7 @@ const Testimonial = () => {
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5 relative" />
                         </div>
-                        <p className="mt-4 text-base text-justify">
+                        <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,
                             I can certainly say it’s @sliceit_ that has hit it out of the
                         </p>
@@ -118,7 +126,7 @@ const Testimonial = () => {
                                     className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div className="flex-grow">
+                                <div className="flex-grow" data-aos='fade-up'>
                                     <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
@@ -127,7 +135,7 @@ const Testimonial = () => {
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-4" />
                         </div>
-                        <p className="mt-4 text-base text-justify">
+                        <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,
                             I can certainly say it’s @sliceit_ that has hit it out of the
                         </p>
