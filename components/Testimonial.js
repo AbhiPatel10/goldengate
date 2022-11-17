@@ -6,21 +6,21 @@ import Image from "next/image";
 const Testimonial = () => {
     return (
         <>
-            <div class="m-auto px-4 container grid lg:grid-cols-4 md:grid-cols-3 grid-rows-2 lg:gap-4 md:gap-2 gap-2">
-                <div class="lg:col-span-1 md:col-span-1 row-span-2">
-                    <div class="h-full border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+            <div className="m-auto px-4 container grid lg:grid-cols-4 md:grid-cols-3 grid-rows-2 lg:gap-4 md:gap-2 gap-2">
+                <div className="lg:col-span-1 md:col-span-1 row-span-2">
+                    <div className="h-full border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <Image
                                     alt="team"
-                                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
+                                    className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font text-xl font-medium">
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
-                                    <p class="text-blue-700 text-xs">@AbhiPat38814974</p>
+                                    <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
@@ -36,20 +36,20 @@ const Testimonial = () => {
                         </p>
                     </div>
                 </div>
-                <div class="lg:col-span-2 md:col-span-2 row-span-1">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                <div className="lg:col-span-2 md:col-span-2 row-span-1">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <Image
                                     alt="team"
-                                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
+                                    className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font text-xl font-medium">
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
-                                    <p class="text-blue-700 text-xs">@AbhiPat38814974</p>
+                                    <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
@@ -62,20 +62,20 @@ const Testimonial = () => {
                         </p>
                     </div>
                 </div>
-                <div class="lg:col-span-1 col-span-1">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                <div className="lg:col-span-1 col-span-1">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <Image
                                     alt="team"
-                                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
+                                    className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font text-xl font-medium">
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
-                                    <p class="text-blue-700 text-xs">@AbhiPat38814974</p>
+                                    <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5" />
@@ -85,20 +85,20 @@ const Testimonial = () => {
                         </p>
                     </div>
                 </div>
-                <div class="">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                <div className="">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <Image
                                     alt="team"
-                                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
+                                    className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font text-xl font-medium">
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
-                                    <p class="text-blue-700 text-xs">@AbhiPat38814974</p>
+                                    <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-5 relative" />
@@ -109,20 +109,20 @@ const Testimonial = () => {
                         </p>
                     </div>
                 </div>
-                <div class="lg:col-span-2 md:col-span-3">
-                    <div class="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                <div className="lg:col-span-2 md:col-span-3">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
                         <div className="flex justify-between">
                             <div className="flex">
                                 <Image
                                     alt="team"
-                                    class="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
+                                    className="w-12 h-12 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-2"
                                     src={Avtar}
                                 />
-                                <div class="flex-grow">
-                                    <h2 class="text-gray-900 title-font text-xl font-medium">
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-medium">
                                         Abhi Patel
                                     </h2>
-                                    <p class="text-blue-700 text-xs">@AbhiPat38814974</p>
+                                    <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
                             <AiFillLinkedin className="text-blue-700 text-xl m-4" />

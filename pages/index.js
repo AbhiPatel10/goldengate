@@ -1,7 +1,7 @@
 import React from 'react'
 import Advantages from '../components/Advantages'
 import Faq from '../components/Faq'
-import Feestructure from '../components/feestructure'
+// import Feestructure from '../components/feestructure'
 import Herosec from '../components/Herosec'
 import Maincard from '../components/MainCard'
 import Navbar from '../components/Navbar'
@@ -22,14 +22,15 @@ const Home = () => {
       <Slicecard />
       <SectionHeader title="The Company advantages" />
       <Advantages />
-      <Feestructure />
       <Faq />
       <SectionHeader title="Send us your love" />
       <Testimonial />
       <Maincard />
       <Footer />
-    </>
-  )
-}
-
-export default Home
+      </>
+      )
+    }
+    
+    export default Home
+    
+    // <Feestructure />
