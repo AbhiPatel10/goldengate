@@ -1,6 +1,7 @@
 import React from 'react'
 import Advantages from '../components/Advantages'
 import Faq from '../components/Faq'
+import Faq2 from '../components/Faq2'
 // import Feestructure from '../components/feestructure'
 import Herosec from '../components/Herosec'
 import Maincard from '../components/MainCard'
@@ -23,6 +24,7 @@ const Home = () => {
       <SectionHeader title="The Company advantages" />
       <Advantages />
       <Faq />
+      <Faq2 />
       <SectionHeader title="Send us your love" />
       <Testimonial />
       <Maincard />

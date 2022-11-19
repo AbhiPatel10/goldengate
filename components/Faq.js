@@ -3,8 +3,8 @@ import React from 'react'
 const Faq = () => {
     return (
         <>
-            <section>
-                <div className='w-full my-20 '>
+            <section className='Faq-Section py-20'>
+                <div className='w-full'>
                     <div className="h-full sm:px-10 Faq-card px-4 rounded-2xl max-w-5xl m-auto py-14">
                         <h1 className="leading-relaxed mb-6 sm:text-3xl md:text-4xl text-2xl text-gray-900 font-bold Faq-card-header">Q. When is a FAQ page appropriate?</h1>
                         <p className='my-3 text-lg Faq-card-ans'>An FAQ page can be a distraction or an asset, depending on how you execute it.</p>

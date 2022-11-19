@@ -30,7 +30,7 @@ const Slicecard = () => {
                         </div>
                         <div className="p-4 md:w-1/2 w-full">
                             <div className="h-full SlideCard-right-main rounded-2xl">
-                                <h1 data-aos='fade-up' className='SlideCard-right px-8 pt-8'>Your purchase power* now calculated in real-time.</h1>
+                                <h1 data-aos='fade-up' className='SlideCard-right sm:px-8 px-4 sm:pt-8 pt-4'>Your purchase power* now calculated in real-time.</h1>
                                 <Image height={350} className='m-auto' src={RocketJPG}/>
                             </div>
                         </div>
