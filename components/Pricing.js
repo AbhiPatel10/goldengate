@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Pricing = () => {
     return (
@@ -37,7 +38,9 @@ const Pricing = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <button className="flex mx-auto mt-5 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Create Account</button>
+                                <Link href="/register">
+                                    <button className="flex mx-auto mt-5 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Create Account</button>
+                                </Link>
                             </div>
                         </div>
                         <div className="py-10 md:w-1/2 w-full">
@@ -78,7 +81,9 @@ const Pricing = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <button className="flex mx-auto mt-5 text-slate-900 bg-gray-300 border-0 py-2 px-8 focus:outline-none rounded text-lg">Contact Us</button>
+                                <Link href="#about">
+                                    <button className="flex mx-auto mt-5 text-slate-900 bg-gray-300 border-0 py-2 px-8 focus:outline-none rounded text-lg">Contact Us</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

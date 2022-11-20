@@ -3,21 +3,119 @@ import React from 'react'
 const Faq = () => {
     return (
         <>
-            <section className='Faq-Section py-20'>
-                <div className='w-full'>
-                    <div className="h-full sm:px-10 Faq-card px-4 rounded-2xl max-w-5xl m-auto py-14">
-                        <h1 className="leading-relaxed mb-6 sm:text-3xl md:text-4xl text-2xl text-gray-900 font-bold Faq-card-header">Q. When is a FAQ page appropriate?</h1>
-                        <p className='my-3 text-lg Faq-card-ans'>An FAQ page can be a distraction or an asset, depending on how you execute it.</p>
-                        <p className='my-3 Faq-card-ans'>But to ensure that it’s the latter, here are some indications that it’s time to incorporate a FAQ page as part of your website:</p>
-                        <ul className="list-disc ">
-                            <li className='Faq-card-ans'>Customers email you with the same questions on an ongoing basis, so it’s better to address them publicly and prominently.</li>
-                            <li className='Faq-card-ans'>You have or plan to create content/landing pages that you can link to and continue the journey from question to conversion.</li>
-                            <li className='Faq-card-ans'>Your product/service/business raises questions and concerns that are best handled in a straightforward manner.</li>
-                        </ul>
-                        <p className='my-3 Faq-card-ans'>That last point is especially important as a FAQ page presents a unique opportunity to directly address concerns and remove obstacles on the path to purchase.</p>
+            <div className="m-auto px-4 container grid lg:grid-cols-6 md:grid-cols-3 grid-rows-2 lg:gap-4 md:gap-2 gap-2">
+                <div className="lg:col-span-3">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. What is an Individual Savings Account (ISA)?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify">
+                            An ISA, or Individual Savings Account, is a savings account that you never pay any tax on. It does come with one restriction, which is the amount of money you can save or invest in an ISA in a single tax year – also known as your annual ISA allowance. For the current tax year this allowance is £20,000.
+                        </p>
                     </div>
                 </div>
-            </section>
+                <div className="lg:col-span-3">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow" >
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. Where must I travel to/from to get 2FOR1 or other offers?
+                                    </h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify" >
+                            All tickets should show that you have travelled to the attraction by train, whether that be ‘London Terminals’ for 2FOR1 London or other offer attractions, or the train station nearest to the attraction itself. Tickets that have a destination too far from the attraction’s location may be denied by attraction staff.
+                        </p>
+                    </div>
+                </div>
+
+                <div className="lg:col-span-2 md:col-span-2 row-span-1">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow">
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. What is a Cash ISA?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify" >
+                            As somebody who has pretty much tried all new age banks/fintechs,
+                            I can certainly say it’s @sliceit_ that has hit it out of the
+                            park. Great job. When you build a great product, your customers
+                            become your ambassadors.
+                        </p>
+                    </div>
+                </div>
+                <div className="lg:col-span-2 col-span-1">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow" >
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. How do the offers work?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify">
+                            Most offers are 2FOR1 entry, valid on full price adult tickets only. In the event of a full price and concessionary admission ticket being purchased together, the cheapest will be deducted,
+                        </p>
+                    </div>
+                </div>
+                <div className="lg:col-span-2 md:col-span-2 row-span-2">
+                    <div className="h-full border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow" >
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. What is a Stocks & Shares ISA?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify" >
+                            The ISA for investments is called a Stocks and Shares ISA: rather than simply saving, you are investing in things like stocks and shares, bonds, gilts or commercial properties to help your savings grow over time and any interest or returns you get are tax free.
+                            <br />
+                            <br />
+                            Stocks and Shares ISAs may have the potential for quicker or greater growth, but because they are based on the stock market there’s always a risk the amount of money in your ISA could go down as well as up.
+                        </p>
+                    </div>
+                </div>
+                <div className="lg:col-span-4">
+                    <div className="h-full overflow-hidden border-gray-200 border py-4 lg:px-4 md:px-3 px-3 rounded-lg shadow-md">
+                        <div className="flex justify-between">
+                            <div className="flex">
+
+                                <div className="flex-grow" >
+                                    <h2 className="text-gray-900 title-font text-xl font-bold">
+                                        Q. How do I keep my train tickets to use them for a 2FOR1 or other offer?
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <p className="mt-4 text-base text-justify">
+                            If you are worried that the ticket barrier will keep your ticket when you exit the station, please ask a member of staff to let you through manually. This will ensure you retain your tickets to redeem 2FOR1 or other offers at attractions.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
         </>
     )
 }

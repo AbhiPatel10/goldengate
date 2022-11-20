@@ -17,14 +17,11 @@ const Navbar = () => {
           </span>
         </Link>
         <ul className={`nav-items ${isOpen && "open"}`}>
-          <Link href={"#about"}>
-            <li>About Us</li>
-          </Link>
           <Link href={"/directors"}>
             <li>Directors</li>
           </Link>
           <Link href={"/authenticator"}>
-            <li>Authenticator</li>
+            <li>Authenticate</li>
           </Link>
           <Link href={"/register"}>
             <li>Register</li>

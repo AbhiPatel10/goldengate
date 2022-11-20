@@ -2,9 +2,8 @@
     position: relative;
     top: 90px;
     /* background-color: rgba(50, 50, 50, 0.8); */
-    background-color: rgb(250, 194, 19, 0.9);
-    backdrop-filter: blur(10px);
-
+    background-color: rgb(250, 194, 19);
+    backdrop-filter: blur(20px);
 }
 .main-card-container p {
     color: #393e39

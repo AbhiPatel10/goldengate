@@ -31,7 +31,7 @@ const Testimonial = () => {
                                     <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
-                            <AiFillLinkedin className="text-blue-700 text-xl m-5" />
+                            <AiFillLinkedin className="text-blue-700 text-xl m-3" />
                         </div>
                         <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,
@@ -60,7 +60,7 @@ const Testimonial = () => {
                                     <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
-                            <AiFillLinkedin className="text-blue-700 text-xl m-5" />
+                            <AiFillLinkedin className="text-blue-700 text-xl m-3" />
                         </div>
                         <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                         As somebody who has pretty much tried all new age banks/fintechs,
@@ -86,7 +86,7 @@ const Testimonial = () => {
                                     <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
-                            <AiFillLinkedin className="text-blue-700 text-xl m-5" />
+                            <AiFillLinkedin className="text-blue-700 text-xl m-3" />
                         </div>
                         <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs
@@ -109,7 +109,7 @@ const Testimonial = () => {
                                     <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
-                            <AiFillLinkedin className="text-blue-700 text-xl m-5 relative" />
+                            <AiFillLinkedin className="text-blue-700 text-xl m-3 relative" />
                         </div>
                         <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,
@@ -133,7 +133,7 @@ const Testimonial = () => {
                                     <p className="text-blue-700 text-xs">@AbhiPat38814974</p>
                                 </div>
                             </div>
-                            <AiFillLinkedin className="text-blue-700 text-xl m-4" />
+                            <AiFillLinkedin className="text-blue-700 text-xl m-3" />
                         </div>
                         <p className="mt-4 text-base text-justify" data-aos='fade-up'>
                             As somebody who has pretty much tried all new age banks/fintechs,

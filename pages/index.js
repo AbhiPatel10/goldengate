@@ -1,6 +1,4 @@
 import React from 'react'
-import Advantages from '../components/Advantages'
-import Faq from '../components/Faq'
 import Faq2 from '../components/Faq2'
 // import Feestructure from '../components/feestructure'
 import Herosec from '../components/Herosec'
@@ -12,21 +10,20 @@ import Testimonial from '../components/Testimonial'
 import Footer from './../components/Footer';
 import Companymessage from './../components/CompanyMessage';
 import Slicecard from '../components/Slicecard'
+import Faq from '../components/Faq'
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <Herosec />
-      <Pricing />
       <Companymessage />
       <Slicecard />
-      <SectionHeader title="The Company advantages" />
-      <Advantages />
-      <Faq />
-      <Faq2 />
+      <Pricing />
       <SectionHeader title="Send us your love" />
       <Testimonial />
+      <SectionHeader title="Frequently asked Question" />
+      <Faq />
       <Maincard />
       <Footer />
       </>
