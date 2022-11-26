@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import FooterImg from '../public/Img/FullLogoo.png'
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from 'react-icons/bs';
-
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -19,13 +19,16 @@ const Footer = () => {
                             <h2 className="title-font font-bold text-gray-200 tracking-widest text-xl mb-3">Company</h2>
                             <nav className="list-none mb-10">
                                 <li>
-                                    <a className="text-gray-300 hover:text-gray-800">Home</a>
+                                    <Link href={'/'} className="text-gray-300 hover:text-gray-800">Home</Link>
                                 </li>
                                 <li className="my-2">
-                                    <a className="text-gray-300 hover:text-gray-800">Authenticate</a>
+                                    <Link href={'/directors'} className="text-gray-300 hover:text-gray-800">Directors</Link>
+                                </li>
+                                <li className="my-2">
+                                    <Link href={'/authenticator'} className="text-gray-300 hover:text-gray-800">Authenticate</Link>
                                 </li>
                                 <li>
-                                    <a className="text-gray-300 hover:text-gray-800">Register</a>
+                                    <Link href={'/register'} className="text-gray-300 hover:text-gray-800">Register</Link>
                                 </li>
                             </nav>
                         </div>

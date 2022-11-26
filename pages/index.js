@@ -22,7 +22,7 @@ const Home = () => {
       <Pricing />
       <SectionHeader title="Send us your love" />
       <Testimonial />
-      <SectionHeader title="Frequently asked Question" />
+      <SectionHeader title="FAQ" />
       <Faq />
       <Maincard />
       <Footer />
