@@ -6,27 +6,27 @@ const Directormain = () => {
             <section>
                 <div className='bg-indigo-400 w-full Second-nav h-auto md:px-24 px-5 py-4'>
                     <ul className='gap-5 Second-nav-ul'>
-                        <li className='Second-nav-list'>Remind Profit fee</li>
-                        <li className='Second-nav-list'>Get Symbol Token</li>
-                        <li className='Second-nav-list'>Reset Auth Status</li>
+                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Remind Profit fee</li>
+                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Get Symbol Token</li>
+                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Reset Auth Status</li>
                     </ul>
                     <ul>
-                        <li className='Second-nav-list-logout whitespace-nowrap'>Log out</li>
+                        <li className='Second-nav-list-logout whitespace-nowrap cursor-pointer hover:bg-indigo-600 hover:text-white'>Log out</li>
                     </ul>
                 </div>
 
-                <div className='md:px-10 px-3 py-10'>
+                <div className='md:px-10 px-3 py-10 bg-gray-200'>
 
                     <div className='w-full '>
-                        <div className='md:w-1/3 m-auto'>
-                            <div className=' bg-gray-200 p-8 rounded-md mb-10'>
+                        <div className='max-w-md m-auto '>
+                            <div className=' bg-gray-200 p-8 rounded-md mb-10 border border-gray-500'>
                                 <form className="w-full m-auto">
                                     <div className="w-full flex flex-wrap mb-6">
                                         <div className="w-full px-3 ">
                                             <label className="block tracking-wide text-gray-900 text-base font-bold mb-5" for="grid-last-name">
                                                 Gain Percentage
                                             </label>
-                                            <input className="appearance-none block w-full bg-gray-100 text-gray-900 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" />
+                                            <input className="appearance-none block w-full bg-gray-100 text-gray-900 border border-gray-500 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Enter your percentage" />
                                         </div>
                                     </div>
                                     <div className="w-full flex justify-center">
@@ -35,7 +35,7 @@ const Directormain = () => {
                                 </form>
                             </div>
                         </div>
-                        <div className='bg-gray-200 md:w-2/4 p-8 rounded-md m-auto'>
+                        <div className='bg-gray-200 max-w-2xl p-8 rounded-md m-auto border border-gray-500'>
                             <h1 className="block tracking-wide text-gray-900 text-base font-bold mb-6 ml-2" for="grid-last-name">Place an Order</h1>
                             <form className="w-full m-auto">
                                 <div className="w-full flex flex-wrap mb-6">
@@ -72,7 +72,7 @@ const Directormain = () => {
                             </form>
 
                         </div>
-                        <div className="h-full bg-gray-100 md:w-4/5 w-full m-auto sm:p-8 p-3 rounded my-10">
+                        <div className="h-full bg-gray-200 max-w-4xl  m-auto sm:p-8 p-3 rounded my-10 border border-gray-500">
                             <form className="w-full m-auto">
                                 <h1 className="block tracking-wide text-gray-900 text-base font-bold mb-6 ml-3" for="grid-last-name">Letter to Investors</h1>
 
@@ -100,7 +100,7 @@ const Directormain = () => {
                                 <button className="mt-5 sm:ml-3 text-white bg-indigo-500 border-0 lg:py-2 lg:px-6 px-4 py-1 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send Letter</button>
                             </form>
                         </div>
-                        <div className='max-w-md bg-gray-200 md:w-1/4 p-8 rounded-md m-auto'>
+                        <div className='max-w-md bg-gray-200 p-8 rounded-md m-auto border border-gray-500'>
                             <form className="w-full m-auto">
                                 <div className="w-full flex flex-wrap mb-6">
                                     <div className="w-full px-3 ">
@@ -121,11 +121,6 @@ const Directormain = () => {
                             </form>
                         </div>
                     </div>
-                    <div className='flex w-full'>
-
-
-                    </div>
-
                 </div>
             </section>
         </>

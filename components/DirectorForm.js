@@ -34,7 +34,7 @@ const DirectorForm = () => {
                 <SectionHeader title="Director" />
             </section>
             <section >
-                <div className='max-w-md m-auto bg-gray-200 p-8 rounded-md mb-24'>
+                <div className='max-w-md m-auto bg-gray-200 p-8 rounded-md mb-24 border border-gray-500'>
                     <form className="w-full m-auto">
                         <div className="w-full flex flex-wrap mb-6">
                             <div className="w-full px-3 ">

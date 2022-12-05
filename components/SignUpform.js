@@ -33,7 +33,7 @@ const SignUpform = () => {
       </section>
       <section className="w-full">
         <div className="mb-10 md:p-0 p-4 w-full">
-          <div className="h-full bg-gray-100 md:w-4/5 w-full m-auto sm:p-8 p-3 rounded">
+          <div className="h-full bg-gray-100 md:w-4/5 w-full m-auto sm:p-8 p-3 rounded border border-gray-500">
             <form className="w-full m-auto">
               <div className="w-full flex flex-wrap mb-6">
                 <div className="w-full md:w-1/2 px-3  mb-6 md:mb-0">
