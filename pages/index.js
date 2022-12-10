@@ -22,14 +22,16 @@ const Home = () => {
       <Pricing />
       <SectionHeader title="Send us your love" />
       <Testimonial />
-      <SectionHeader title="FAQ" />
-      <Faq />
+      <div className=''>
+        <SectionHeader title="FAQ" />
+        <Faq />
+      </div>
       <Maincard />
       <Footer />
-      </>
-      )
-    }
-    
-    export default Home
-    
+    </>
+  )
+}
+
+export default Home
+
     // <Feestructure />
