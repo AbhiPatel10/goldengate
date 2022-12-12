@@ -79,6 +79,7 @@
   justify-content: space-between;
   /* flex-wrap: wrap; */
   /* white-space: ; */
+  background-color: rgb(250, 194, 19, 0.8);
 }
 .Second-nav-ul{
   flex-wrap: wrap;

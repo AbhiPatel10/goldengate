@@ -4,21 +4,21 @@ const Directormain = () => {
     return (
         <>
             <section>
-                <div className='bg-indigo-400 w-full Second-nav h-auto md:px-24 px-5 py-4'>
+                <div className='w-full Second-nav h-auto md:px-24 px-5 py-4'>
                     <ul className='gap-5 Second-nav-ul'>
-                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Remind Profit fee</li>
-                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Get Symbol Token</li>
-                        <li className='Second-nav-list cursor-pointer hover:bg-indigo-600 hover:text-white'>Reset Auth Status</li>
+                        <li className='Second-nav-list border-gray-400 border cursor-pointer hover:bg-indigo-600 hover:text-white'>Remind Profit fee</li>
+                        <li className='Second-nav-list border-gray-400 border cursor-pointer hover:bg-indigo-600 hover:text-white'>Get Symbol Token</li>
+                        <li className='Second-nav-list border-gray-400 border cursor-pointer hover:bg-indigo-600 hover:text-white'>Reset Auth Status</li>
                     </ul>
                     <ul>
-                        <li className='Second-nav-list-logout whitespace-nowrap cursor-pointer hover:bg-indigo-600 hover:text-white'>Log out</li>
+                        <li className='Second-nav-list-logout border-gray-400 border whitespace-nowrap cursor-pointer hover:bg-indigo-600 hover:text-white'>Log out</li>
                     </ul>
                 </div>
 
-                <div className='md:px-10 px-3 py-10 bg-gray-200'>
+                <div className='md:px-10 px-3 py-10 '>
 
                     <div className='w-full'>
-                        <div className='md:flex md:justify-center space-x-9 '>
+                        <div className='md:flex md:justify-center gap-10 '>
                             <div className='bg-gray-200 max-w-2xl p-8 rounded-md border border-gray-500'>
                                 <h1 className="block tracking-wide text-gray-900 text-base font-bold mb-6 ml-2" for="grid-last-name">Place an Order</h1>
                                 <form className="w-full m-auto">
@@ -55,7 +55,7 @@ const Directormain = () => {
                                     </div>
                                 </form>
                             </div>
-                            <div className='max-w-2xl bg-gray-200 p-8 rounded-md border border-gray-500'>
+                            <div className='max-w-none bg-gray-200 p-8 md:mt-0 mt-10 rounded-md border border-gray-500'>
                                 <form className="w-full m-auto">
                                     <div className="w-full flex flex-wrap mb-6">
                                         <div className="w-full px-3 ">
